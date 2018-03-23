@@ -7,5 +7,5 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
     // Send the response body as "Hello World"
-    response.end('Hello World updated\n');
+    response.end('Hello World updated v2\n');
 }).listen(80);
